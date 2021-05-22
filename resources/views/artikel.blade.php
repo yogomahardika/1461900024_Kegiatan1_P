@@ -17,5 +17,7 @@ Dengan begitu, developer dan programmer tidak perlu melakukan koding program yan
 <p>1. Program Menjadi Lebih Terstruktur dan Tersusun</p>
 <p>2. Praktis untuk Developer</p>
 <p>3. Memiliki Keamanan yang Lebih Unggul </p>
+<p><a href="home">Home</a></p>
+<p><a href="contact">Contact</a></p>
 </body>
 </html>
