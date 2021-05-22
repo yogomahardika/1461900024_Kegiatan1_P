@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\homeblade;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/home', [homeblade::class, 'index']);
+Route::get('/artikel', [homeblade::class, 'artikel']);
+Route::get('/contact', [homeblade::class, 'contact']);
